@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Details</h1>
+    <h4>Office Address</h4>
+    <p>212,Bloomberg av,Houston,TX</p>
+    <H4>Office number</H4>
+    <P>+1293837634</P>
+    <h4>Office Email</h4>
+    <P>ajayienter@GMAIL.COM</P>
+    <hr>
+    <form action="mailto:davidiyaogeh@gmail.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <br><label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+        <br><label for="phone">Phone No:</label>
+        <input type="number" name="phone number" id="phone">
+        <P>
+            GENDER:
+            <br><input type="radio" name="gender" id="gender">
+            <label for="gender">:Male</label>
+            <br><input type="radio" name="gender" id="gender">
+            <label for="gender">:Female</label>
+            <br><input type="radio" name="gender" id="gender">
+            <label for="gender">:Not saying</label>
+        </P>
+        <p>
+            Do you want to signup for the email list?
+            <br><input type="checkbox" name="checkbox" id="checkbox">
+            <label for="checkbox">Yes</label>
+        </p>
+        Age Range:
+        <br><select name="best" id="age">
+            <option>18-25</option>
+            <option>26-33</option>
+            <option>34-41</option>
+            <option>42-58</option>
+        </select>
+    <br><textarea name="About us" id="About us" cols="25" rows="10">leave us a comment...</textarea>
+    <br><input type="submit" name="submit" id="submit">
+    <input type="button" value="Go to home" onclick="history.back">
+    </form>
+        
+    <br><a href="/">back to home</a>
+</body>
+</html>
